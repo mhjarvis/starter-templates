@@ -4,52 +4,56 @@
 
 Holds all product definitions.
 
-1. \_color.scss -
-2. \_reset.scss -
-3. \_typography.scss -
+1. `_color.scss` -
+2. `_reset.scss` -
+3. `_typography.scss` -
 
 ## `abstracts/`
 
-Holds
+Code that does not output any css (variables / mixins)
 
-1. \_functions.scss -
-2. \_mixins.scss -
-3. \_variables.scss -
+1. `_functions.scss` -
+2. `_mixins.scss` -
+3. `_variables.scss` -
 
 ## `components/`
 
-Holds
+Holds one file for each component.
 
-1. \_buttons.scss -
-2. \_gallery.scss -
-3. \_navigation.scss -
+1. `_buttons.scss` -
+2. `_gallery.scss` -
+3. `_navigation.scss` -
 
 ## `layout/`
 
-Holds
+Defines the overall layout of the project.
 
-1. \_grid.scss -
-2. \_header.scss -
-3. \_sidebar.scss -
+1. `_grid.scss` -
+2. `_header.scss` -
+3. `_sidebar.scss` -
 
 ## `pages/`
 
-Holds
+Holds styles for specific pages of the project.
 
-1. \_about.scss -
-2. \_contact.scss -
-3. \_home.scss -
+1. `_about.scss` -
+2. `_contact.scss` -
+3. `_home.scss` -
 
 ## `themes/`
 
-Holds
+Holds different visual themes of the project.
 
-1. \_admin.scss -
-2. \_theme.scss
+1. `_admin.scss` -
+2. `_theme.scss` -
 
 ## `vendors/`
 
-Holds
+Holds all third-party css.
 
-1. \_bootstrap.scss
-2. \_jquery-ui.scss
+1. `_bootstrap.scss` -
+2. `_jquery-ui.scss` -
+
+## `main.scss`
+
+Holds
