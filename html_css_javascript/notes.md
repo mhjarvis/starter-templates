@@ -1,3 +1,5 @@
+# How CSS Works Behind the Scenes
+
 ## Three Pillars to Good HTML / CSS
 
 1. Responsive Design
@@ -21,3 +23,5 @@
     - Use a CSS preprocessor
     - Less images
     - Compress images
+
+##
