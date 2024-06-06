@@ -2,6 +2,15 @@
 /*                 CORE STYLES                      */
 /*  ----------------------------------------------  */
 
+:root {
+    --primary: rgb(244, 242, 242);
+    --secondary: rgb(26, 71, 123);
+    --accent: rgb(20, 186, 87);
+    --headerColor: rgb(17, 17, 17);
+    --bodyColor: rgb(65, 65, 65);
+    --bodyColorWhite: rgb(247, 247, 248);
+}
+
 *,
 *::before,
 *::after {
@@ -23,6 +32,7 @@ body {
     min-height: 100vh;
     /* border & padding accounted for in element's width/height */
     box-sizing: border-box;
+    background-color: var(--primary);
 }
 
 @media screen and (min-width: 360px) {
