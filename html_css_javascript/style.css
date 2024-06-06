@@ -3,12 +3,12 @@
 /*  ----------------------------------------------  */
 
 :root {
-    --primary: rgb(244, 242, 242);
-    --secondary: rgb(26, 71, 123);
-    --accent: rgb(20, 186, 87);
-    --headerColor: rgb(17, 17, 17);
-    --bodyColor: rgb(65, 65, 65);
-    --bodyColorWhite: rgb(247, 247, 248);
+    --color-primary: rgb(244, 242, 242);
+    --color-secondary: rgb(26, 71, 123);
+    --color-accent: rgb(20, 186, 87);
+    --color-header: rgb(17, 17, 17);
+    --color-text: rgb(65, 65, 65);
+    --color-white: rgb(247, 247, 248);
 }
 
 *,
