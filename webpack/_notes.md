@@ -6,13 +6,19 @@
 
 2. Run `npm install webpack webpack-cli --save-dev` to install webpack to the `node_modules` directory of your project.
 
-3. Add a `.gitignore` file to ignore the `node_modules` folder when backing up to GitHub. Run `npm install` when downloading a project to install all dependencies.
+-   You are installing:
 
-4. Create a `src` directory with a `index.js` file.
+1. `webpack`
+2. `webpack-cli` - which lets you use commands via the command line.
+3. `--save-dev` - adds webpack to dependency list.
 
-5. Create a `dist` directory with `index.html` and `style.css` files.
+4. Add a `.gitignore` file to ignore the `node_modules` folder when backing up to GitHub. Run `npm install` when downloading a project to install all dependencies.
 
-6. Create a `webpack.config.js` file in the root of the folder.
+5. Create a `src` directory with a `index.js` file.
+
+6. Create a `dist` directory with `index.html` and `style.css` files.
+
+7. Create a `webpack.config.js` file in the root of the folder.
 
 ## II. Link Your Files
 
