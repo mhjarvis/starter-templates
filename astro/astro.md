@@ -14,6 +14,12 @@ To add React integration, we can run:
 npx astro add react
 ```
 
+To create Island based components, add preact to your project:
+
+```sh
+npx astro add preact
+```
+
 ## Folder Structure
 
 - `src/pages` - Astro uses file-system page routing, meaning any files/folders placed in `/pages` will
