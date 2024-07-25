@@ -6,8 +6,16 @@
 
 ### Basic Type Annotation
 
-Declare variable of type string. Once declared as a string, TS will complain if you attempt to change it to another type.
+Declare different variable types. Once declared as sepcific variable, TS will complain if you attempt to change it to another type.
 
 ```ts
-const myVariable: string = "Some awesome string"
+// string declaration
+let myVariable: string = "Some awesome string"
+
+// number declaration
+let numOfLives: number = 9
+let numOfLives = "A string" // this will not work
+
+// boolean declaration
+let gameOver: boolean = false
 ```
