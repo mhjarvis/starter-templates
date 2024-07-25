@@ -4,6 +4,6 @@ movieTitle = "arr"
 
 let show = "Lost"
 
-function square(num) {
-	return num * num
+const doSomething = (person: string, age: number, isFunny: boolean) => {
+	console.log("hi")
 }

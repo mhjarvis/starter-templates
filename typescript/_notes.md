@@ -46,7 +46,11 @@ let var;
 ## Functions
 
 ```ts
-function square(num) {
+// create function with explicit parameter type (number)
+function square(num: number) {
 	return num * num
 }
+
+// arrow function with multiple parameters (will need to be defined in order)
+const doSomething = (person: string, age: number, isFunny: boolean) => {}
 ```
