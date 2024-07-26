@@ -4,6 +4,13 @@
 
     npm install -g typescript
 
+To compile a TS file
+
+```bash
+tsc filename.ts
+node filename.js
+```
+
 ## Basic Type Annotation
 
 Declare different variable types. Once declared as sepcific variable, TS will complain if you attempt to change it to another type. It will not stop it from compiling, but could cause issues.
