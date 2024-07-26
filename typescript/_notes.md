@@ -35,7 +35,7 @@ let var;  // this will also be of the any type
 
 ## Functions
 
-Parameters will default to `any` if not explicitly typed.
+Parameters will default to `any` if not explicitly typed. TypeScript is also smart enough to determine if a function will return multiple types.
 
 ```ts
 // TYPE PARAMETERS IN FUNCTIONS
@@ -54,5 +54,19 @@ function greet(person: string = "stranger") {
 // RETURN TYPE
 const addNums = (x: number, y: number): number => {
 	return x + y
+}
+
+// VOID TYPE
+function pr(): void {
+	// this function does not return anything
+	console.log("something")
+}
+
+// NEVER TYPE
+function neverStop(): never {
+	// this function should never return anything
+	while (true) {
+		console.log("Still going...")
+	}
 }
 ```
