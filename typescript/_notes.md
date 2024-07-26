@@ -45,6 +45,8 @@ let var;
 
 ## Functions
 
+Parameters will default to `any` if not explicitly typed.
+
 ```ts
 // create function with explicit parameter type (number)
 function square(num: number) {
@@ -53,4 +55,9 @@ function square(num: number) {
 
 // arrow function with multiple parameters (will need to be defined in order)
 const doSomething = (person: string, age: number, isFunny: boolean) => {}
+
+// default values can also be used in functions
+function greet(person: string = "stranger") {
+	"...do something"
+}
 ```
