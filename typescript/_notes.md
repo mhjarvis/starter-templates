@@ -63,10 +63,8 @@ function pr(): void {
 }
 
 // NEVER TYPE
-function neverStop(): never {
+function makeError(msg: string): never {
 	// this function should never return anything
-	while (true) {
-		console.log("Still going...")
-	}
+	throw new Error(msg)
 }
 ```
