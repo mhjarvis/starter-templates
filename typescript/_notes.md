@@ -75,3 +75,35 @@ function makeError(msg: string): never {
 	throw new Error(msg)
 }
 ```
+
+## Object Types
+
+Objects are fairly intuitive to use.
+
+```ts
+// OBJECT AS PARAMETER
+function printName(person: { first: string; last: string }): void {
+	console.log(person.first + " " + person.last)
+}
+
+// OBJECT WITH INITIALIZATION
+let coordinate: { x: number; y: number } = { x: 33, y: 22 }
+
+// FUNCTION WITH OBJECT RETURN TYPE
+function ramdonCoordinate(): { x: number; y: number } {
+	return { x: Math.random(), y: Math.random() }
+}
+```
+
+TypeScript has type aliases, which allow for an object to be declared seperately with their types.
+
+```ts
+// TYPE ALIAS
+type Point = {
+	x: number
+	y: number
+}
+
+let coordinate: Point = {x 33, y:22}    // variable using alias
+function randomCoordinate(): Point {return ...}     // function using alias
+```
