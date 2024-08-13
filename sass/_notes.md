@@ -11,3 +11,9 @@
   - \_base.scss
   - \_typegraphy.scss
   - \_utilities.scss
+- components
+- layout
+- pages
+  - \_home.scss
+- themes
+- vendors
