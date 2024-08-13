@@ -12,7 +12,10 @@
   - \_typegraphy.scss
   - \_utilities.scss
 - components
+  - \_buttons.scss (e.g.)
 - layout
+  - \_header.scss (e.g.)
+  - \_footer.scss (e.g.)
 - pages
   - \_home.scss
 - themes
