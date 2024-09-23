@@ -1,0 +1,65 @@
+// Media Query Manager
+
+@mixin respond($breakpoint) {
+	/* 360px */
+	@if $breakpoint == small-mobile {
+		@media (min-width: 23.44rem) {
+			@content;
+		}
+	}
+
+	/* 480px */
+	@if $breakpoint == mobile {
+		@media (min-width: 30em) {
+			@content;
+		}
+	}
+
+	/* 768px */
+	@if $breakpoint == tablet {
+		@media (min-width: 48em) {
+			@content;
+		}
+	}
+
+	/* 1024px */
+	@if $breakpoint == desktop {
+		@media (min-width: 64em) {
+			@content;
+		}
+	}
+
+	/* 1440px */
+	@if $breakpoint == large-desktop {
+		// 1800px
+		@media (min-width: 90em) {
+			@content;
+		}
+	}
+}
+
+/* 
+
+// Include the following wherever it is needed
+
+@include respond(small-mobile) {
+
+}
+
+@include respond(mobile) {
+    
+} 
+
+@include respond(tablet) {
+    
+} 
+
+@include respond(desktop) {
+    
+} 
+
+@include respond(large-desktop) {
+    
+} 
+    
+*/
