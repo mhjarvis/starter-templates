@@ -16,3 +16,31 @@
     # creates live server on localhost:5173
     npm run dev
 ```
+
+## Connect project to a remote (empty) repository
+
+1. Initialize the local project with Git.
+
+```bash
+    git init
+```
+
+2. Add all files to stagin area and commit.
+
+```bash
+    git add .
+    git commit -m 'Initial Commit'
+```
+
+3. Add remote repository to the local project.
+
+```bash
+    git remote add origin <repository-url>
+    git remote -v   // verify if needed
+```
+
+4. Push project.
+
+```bash
+    git push -u origin main
+```
