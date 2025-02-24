@@ -1,5 +1,11 @@
 # React Project Setup
 
+## Updated Setup
+
+```bash
+npm create vite@latest
+```
+
 ## Using Vite
 
 ```bash
@@ -44,3 +50,5 @@
 ```bash
     git push -u origin main
 ```
+
+c
